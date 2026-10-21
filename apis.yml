@@ -1,23 +1,81 @@
 aid: zunoy
+
 name: Zunoy
-description: 'Zunoy is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://zunoy.com/og/home.png
+
+description: 'Zunoy provides a cloud‑based platform for real‑time data integration, API management, and analytics. It enables businesses to connect, orchestrate, and monitor APIs across hybrid environments, offering features such as traffic routing, security policies, and detailed usage insights. The platform targets developers and enterprises seeking scalable API solutions with robust monitoring and governance capabilities.'
+
 url: https://raw.githubusercontent.com/api-evangelist/zunoy/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
-- Company
-apis: []
+- API Management
+- Integration
+- Cloud Platform
+- Analytics
+- Real-time
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/zunoy-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/zunoy-llms.txt
+- type: Hosts
+  url: hosts/zunoy-hosts.yml
+- type: Vendors
+  url: vendors/zunoy-vendors.yml
+- type: Webhooks
+  url: https://zunoy.com/bugtracker/integrations/webhooks
+- type: TermsOfService
+  url: https://zunoy.com/policies/terms-and-conditions
+- type: Sandbox
+  url: https://zunoy.com/sandbox
+- type: PrivacyPolicy
+  url: https://zunoy.com/policies/privacy-policy
+- type: Pricing
+  url: https://zunoy.com/mockapi/pricing
+- type: GitHubOrganization
+  url: https://github.com/Zunoy
+- type: DomainSecurity
+  url: security/zunoy-domain-security.yml
 - type: Website
   url: https://zunoy.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://zunoy.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

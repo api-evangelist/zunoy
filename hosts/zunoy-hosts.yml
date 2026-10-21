@@ -1,0 +1,175 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 15
+  own: 14
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - identity
+  - other
+  - sandbox
+  - source
+  - status
+  - website
+hosts:
+- host: account.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: identity
+  relation: own
+- host: api.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: api
+  relation: own
+- host: appshare.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: bugtracker.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: canvas.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-appshare.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-bugtracker.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-kiosk.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-knowledgebase.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-mockapi.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: dev-sandbox.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: sandbox.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: sandbox
+  relation: own
+- host: status.zunoy.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: zunoy.com
+  role: status
+  relation: own
+- host: zunoy.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Webhooks
+  - TermsOfService
+  - Sandbox
+  - PrivacyPolicy
+  - Pricing
+  - Website
+  serves:
+  - cdn
+  vendor: cloudfront
+  registrable_domain: zunoy.com
+  role: website
+  relation: own

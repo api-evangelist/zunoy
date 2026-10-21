@@ -1,0 +1,96 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://zunoy.com/mockapi/pricing
+sources:
+- https://zunoy.com/mockapi/pricing
+name: Zunoy pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $ 0 /Month
+  price: 0
+  description: Enjoy essential features at no cost, forever.
+  features:
+  - 5 Active API
+  - 1 Scenario per API
+  - 100 Requests/day
+  - 1 MB API Size
+  - 100 MB Storage
+  - Public Swagger Page
+  - Public Docs Page
+  - Unlimited Team Members
+  - Single WorkSpace
+  limits:
+  - name: Mock APIs
+    limit_text: '5'
+  - name: Scenarios per API
+    limit_text: '1'
+  - name: Requests per day
+    limit_text: '100'
+  - name: API Size
+    limit_text: 1 MB
+  - name: Storage
+    limit_text: 100 MB
+- name: Starter
+  price_text: $ 4.17 /Month
+  price: 4.17
+  description: Perfect for personal projects and small-scale use.
+  features:
+  - 20 Active API
+  - 3 Scenarios per API
+  - 500 Requests/day
+  - 5 MB API Size
+  - 250 MB Storage
+  - Unlimited Workspaces
+  limits:
+  - name: Mock APIs
+    limit_text: '20'
+  - name: Scenarios per API
+    limit_text: '3'
+  - name: Requests per day
+    limit_text: '500'
+  - name: API Size
+    limit_text: 5 MB
+  - name: Storage
+    limit_text: 250 MB
+- name: Growth
+  price_text: $ 11.67 /Month
+  price: 11.67
+  description: Designed for ambitious users who need more power and flexibility.
+  features:
+  - Unlimited Active API
+  - 5 Scenarios per API
+  - 50k Requests/month
+  - 500 MB Storage
+  - Public Swagger Pages
+  limits:
+  - name: Mock APIs
+    limit_text: Unlimited
+  - name: Scenarios per API
+    limit_text: '5'
+  - name: Requests per month
+    limit_text: 50k
+  - name: Storage
+    limit_text: 500 MB
+- name: Business
+  price_text: $ 24.17 /Month
+  price: 24.17
+  description: Comprehensive solutions tailored for growing teams and enterprises.
+  features:
+  - 10 Scenarios per API
+  - 1L Requests/month
+  - 10 MB API Size
+  - 1 GB Storage
+  - Public Swagger Page
+  limits:
+  - name: Scenarios per API
+    limit_text: '10'
+  - name: Requests per month
+    limit_text: 1L
+  - name: API Size
+    limit_text: 10 MB
+  - name: Storage
+    limit_text: 1 GB
+docs: https://zunoy.com/mockapi/pricing

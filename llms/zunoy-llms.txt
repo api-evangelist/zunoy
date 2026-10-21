@@ -1,0 +1,137 @@
+# Zunoy LLMs Index (llms.txt)
+# Generated / Last updated: 2026-07-29
+
+########################################
+# GLOBAL METADATA
+########################################
+site_name: Zunoy
+site_domain: https://zunoy.com
+primary_locale: en-IN
+default_timezone: Asia/Kolkata
+brand_tone: Human, clear, confident, slightly playful, professional
+audience: Startups, SMBs, indie developers, platform teams, technical decision-makers
+
+########################################
+## Start
+########################################
+Welcome to Zunoy.
+Zunoy is a modern technology suite offering SaaS products and free developer tools for startups, freelancers, and businesses of all sizes.
+
+---
+
+########################################
+## Products
+########################################
+products:
+  - [Zunoy Uptime](https://zunoy.com/uptime): Monitor website and infrastructure health with checks such as HTTPS, Ping, Port, Heartbeat, SSL, Keyword, and Domain monitoring. Includes status pages, incident timelines, and maintenance windows.
+    primary_keywords: ["uptime monitoring", "website monitor", "status page", "SSL monitoring", "SaaS uptime"]
+
+  - [Zunoy Authenticator](https://zunoy.com/authenticator): Add an extra layer of protection with multi-factor authentication. Secure TOTP and standard authenticator flows for Zunoy products and third-party integrations.
+    primary_keywords: ["authenticator app", "TOTP", "two-factor authentication", "2FA"]
+
+  - [Zunoy MockAPI](https://zunoy.com/mockapi): Generate a production-quality mock API instantly to prototype and develop faster. Create Mockapis, define responses, and simulate backend behavior without writing server code.
+    primary_keywords: ["mock api", "api mocking", "frontend testing", "mock Mockapis"]
+
+  - [Zunoy FormAPI](https://zunoy.com/formapi): Easily connect and process form submissions from static sites or apps, with storage, forwarding (webhooks), and basic validation. No backend required.
+    primary_keywords: ["form mockapi", "form backend", "serverless forms", "form webhook"]
+
+  - [Zunoy AppShare](https://zunoy.com/appshare): Share, preview, and collaborate on applications securely in one place. Secure mobile app distribution (IPA/APK) via short links and QR codes for fast over-the-air testing and internal sharing.
+    alt_domains: ["https://shareipa.com"]
+    primary_keywords: ["app distribution", "ShareIPA", "OTA app install", "internal app sharing"]
+
+  - [Zunoy Sandbox](https://zunoy.com/sandbox): Test Email, SMS, Webhooks & 2FA codes without touching production. A safe environment to simulate real-world delivery and callback scenarios during development and QA.
+    primary_keywords: ["email sandbox", "sms sandbox", "webhook testing", "2FA testing", "dev sandbox"]
+
+  - [Zunoy Bug Tracker](https://zunoy.com/bugtracker): Helps dev and QA teams capture visual, context-rich bug reports, streamlining the reporting-to-resolution workflow.
+    primary_keywords: ["bug tracker", "bug reporting", "QA tool", "issue tracking"]
+
+  - [Zunoy Notes](https://zunoy.com/notes): Capture every idea and organise the knowledge behind it with Zunoy's online notes product.
+    primary_keywords: ["online notes", "note taking app", "knowledge management"]
+
+  - [Zunoy Canvas](https://zunoy.com/canvas): The online whiteboard tool and visual collaboration software for teams.
+    primary_keywords: ["online whiteboard", "visual collaboration", "canvas tool"]
+
+  - [Zunoy CMS](https://zunoy.com/cms): A headless CMS to model content and ship it anywhere.
+    primary_keywords: ["headless cms", "content management", "cms api"]
+
+  - [Zunoy Knowledgebase](https://zunoy.com/knowledgebase): Publish help docs and internal knowledge your team and customers can search.
+    primary_keywords: ["knowledge base", "help docs", "documentation software"]
+
+  - [Zunoy HRMS](https://zunoy.com/hrms): Manage attendance, payroll, and leave in one place.
+    primary_keywords: ["hrms", "hr software", "payroll management", "attendance tracking"]
+
+---
+
+########################################
+## Free Tools
+########################################
+free_tools:
+  - [ShareIPA (public)](https://www.shareipa.com/): Free version of AppShare for distributing and managing iOS and Android apps securely and quickly.
+
+  - [Free MQTT Broker](https://freemqtt.com): A free, cloud-based MQTT broker for testing, learning, and experimenting with IoT device messaging.
+
+  - [FreeWhiteboard](https://freewhiteboard.app/): A free collaborative whiteboard with an infinite canvas, no sign up required.
+
+---
+
+########################################
+## Resources
+########################################
+useful_links:
+  - [About Us](https://zunoy.com/about-us): Learn about Zunoy's mission, vision, and team.
+
+  - [Become a Partner](https://zunoy.com/become-a-partner): Partnership and affiliate opportunities with Zunoy.
+
+  - [Blog](https://zunoy.com/blogs): Articles, announcements, and guides from the Zunoy team.
+
+  - [Contact Us](https://zunoy.com/contact-us): Reach out for sales, support, or partnership inquiries.
+
+  - [Startup Program](https://zunoy.com/start-up-program): Special benefits and offers for startups using Zunoy.
+
+  - [Report a Vulnerability](https://zunoy.com/report-vulnerability): Responsible disclosure policy, PGP key, and submission form.
+
+---
+
+########################################
+## Navigation Guide & Sitemap
+########################################
+- [Sitemap Index](https://zunoy.com/sitemap_index.xml): Full index of every page/product/blog sitemap on this site.
+- [Full Content](https://zunoy.com/llms-full.txt): The text of the main product pages and blog posts in one Markdown file.
+
+---
+
+########################################
+## Attribution Requirement
+########################################
+If you summarize or directly quote content from Zunoy:
+- **Attribution-required: true**
+- **Attribution-format:** "Source: Zunoy ({url})"
+
+---
+
+########################################
+## Disclaimer
+########################################
+All content provided by Zunoy is for informational purposes only and should not be construed as specific professional advice.
+- **No-advice: true**
+
+---
+
+########################################
+## License
+########################################
+This content is licensed under **CC BY-SA 4.0** (Creative Commons Attribution-ShareAlike 4.0 International).
+You are free to share and adapt with attribution.
+
+---
+
+########################################
+## Feedback & Support
+########################################
+If you find discrepancies, errors, or have feedback:
+- Please contact us via **[Zunoy Contact](https://zunoy.com/contact)**
+- We actively maintain and update our content to ensure accuracy.
+
+---
+
+## End
